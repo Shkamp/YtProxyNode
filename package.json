@@ -2,7 +2,7 @@
   "name": "yt-proxy",
   "version": "1.0.0",
   "description": "A youtube proxy api",
-  "main": "index.js",
+  "main": "yt-proxy.js",
   "scripts": {
     "test": "test"
   },
@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "@microlink/youtube-dl": "^1.13.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shkamp/YtProxyNode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shkamp/YtProxyNode/issues"
+  },
+  "homepage": "https://github.com/Shkamp/YtProxyNode#readme"
 }
