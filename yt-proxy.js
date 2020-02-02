@@ -21,9 +21,9 @@ http.createServer(function (req, res) {
 var returnUrl = "";
 
 // Optional arguments passed to youtube-dl.
-//var options = ['--username=user', '--password=hunter2'];
+var options = ['--format=18'];
 function getUrl(url) {
-    youtubedl.getInfo(url, function (err, info) {
+    youtubedl.getInfo(url, options, function (err, info) {
         if (err) throw err;
         res = info;
         console.log(info.url)
